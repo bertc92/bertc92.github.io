@@ -383,6 +383,23 @@ ul{
 	  background-image:url("../img/hellarena/hellbanner.png");
 }
 
+#photofront
+{
+	  background-image:url("../img/photography/photobanner.jpg");
+}
+
+.flickr
+{
+  color:#F9F9F9;
+  text-decoration:none;
+}
+.flickr:hover
+{
+  color:#F9F9F9;
+  text-decoration:none;
+  font-weight:600;
+}
+
 .project-img
 {
 	/* max-width:512px; */
