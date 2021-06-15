@@ -3,8 +3,8 @@ body
  /* background-color:#141212;
  color:#F9F9F9; */
 
- background-color:#121212;
- color:#F9F9F9;
+ background-color:#F9F9F9;
+ /* color:#F9F9F9; */
  /* background-image: url('../img/wallpaper.jpg');
  background-repeat:no-repeat;
  background-size:cover;
@@ -23,7 +23,7 @@ body
   height: 100vh;
   top: 0;
   left: 0;
-  background: #0f0f0f;
+  background: #F9F9F9;
   overflow: hidden;
   z-index:-1;
 }
@@ -202,37 +202,72 @@ body
 
 h1,h2
 {
-  font-family: 'Orbitron', sans-serif;
-  font-weight:500;
-  letter-spacing:0.1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight:800;
+  /* letter-spacing:0.1em; */
+  color:#D76C1C;
 }
 
 h3,h4,h5,h6
 {
-  font-family: 'Orbitron', sans-serif;
-  font-weight:400;
-  letter-spacing:0.1em;
+  font-family: 'Raleway', sans-serif;
+  /* font-weight:400; */
+  /* letter-spacing:0.1em; */
 }
 
-a h3,h4,h5,h6
+h3
 {
-  text-shadow: 1px 1px 5px black;
-  /* font-family: 'Orbitron', sans-serif;
-  font-weight:400;
-  letter-spacing:0.1em; */
+  color:rgba(120,120,120,90);
+  font-style:italic;
+  font-weight:700;
 }
+
+.tags
+{
+  color:rgba(120,120,120,90);
+  font-style:italic;
+  font-weight:400;
+}
+
+.name-email
+{
+  margin-left:.5em;
+  font-size:.5em;
+  font-weight:normal;
+  color:#D76C1C;
+}
+
+.name-email:hover
+{
+  font-weight:bold;
+  color:#ffae70;
+}
+
+/* a h3,h4,h5,h6
+{
+   text-shadow: 1px 1px 5px black; 
+   font-family: 'Orbitron', sans-serif;
+  font-weight:400;
+  letter-spacing:0.1em; 
+} */
 
 p
 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight:normal;
-  font-weight:200;
+  /* font-weight:200; */
   line-height:2em;
+  color:black;
+}
+
+li
+{
+  color:black;
 }
 
 em
 {
-	font-family:'Fira Sans', sans-serif;
+	font-family:'Raleway', sans-serif;
 }
 
 header, footer
@@ -243,7 +278,7 @@ header, footer
 
 nav a
 {
-  font-family:'Orbitron', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight:100;
   color:#F9F9F9;
   letter-spacing: 0.3em;
@@ -252,7 +287,7 @@ nav a
 
 figcaption
 {
-  font-family:'Fira Sans', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight:200;
   font-size:0.9em;
   font-style:italic;
@@ -267,7 +302,7 @@ nav a:hover
 
 footer a
 {
-  font-family:'Orbitron', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight:400;
   color:#F9F9F9;
   letter-spacing:0.1em;
@@ -278,6 +313,16 @@ footer a:hover
   text-decoration:none;
   font-weight:600;
   color:#F9F9F9;
+}
+
+footer h4,h5
+{
+  color:white;
+}
+
+footer h5
+{
+  font-weight:lighter;
 }
 
 a
@@ -336,7 +381,7 @@ ul{
 
 .div-spacer
 {
-  margin:0 0 20% 0;
+  margin:0 0 5% 0;
 }
 
 .img-box
@@ -419,8 +464,15 @@ ul{
 .img-box h3
 {
   text-align:right;
-    position: relative;
-    top: 230px;
+  position: relative;
+    /* top: 230px; */
+  color:white;
+  background-color:#D76C1C;
+}
+
+.subtitle
+{
+ background-color:black;
 }
 
 .text-alpha90
@@ -429,7 +481,10 @@ ul{
 }
 .h2-alpha90
 {
-  color:rgba(230,230,230,90);
+  /* color:rgba(230,230,230,90); */
+  color:#D76C1C;
+  font-style:normal;
+  font-weight:300;
 }
 
 .style-textsample

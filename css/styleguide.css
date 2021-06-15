@@ -9,13 +9,13 @@ body
 
 h1,h2,h3,h4
 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight:500;
 }
 
 p
 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight:normal;
 }
 
@@ -26,7 +26,7 @@ header, footer
 
 nav a
 {
-  font-family:'Orbitron', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight:100;
   color:#F9F9F9;
   letter-spacing: 0.3em;
@@ -42,7 +42,7 @@ nav a:hover
 
 footer a
 {
-  font-family:'Orbitron', sans-serif;
+  font-family:'Raleway', sans-serif;
   font-weight:400;
   color:#F9F9F9;
   letter-spacing:0.1em;
@@ -92,7 +92,7 @@ ul a:hover
 
 .style-firasans
 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .style-color1
